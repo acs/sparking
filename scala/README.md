@@ -2,3 +2,5 @@
 
 Scala samples with Apache Spark platform.
 
+[WordCount](WordCount)
+
