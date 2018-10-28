@@ -2,9 +2,18 @@
 
 ## Directly in a Jupyter Notebook
 
+Create a python venv and install jupyter in it:
+
+```
+python3 -m venv venv
+source venv/bin/activate
+pip install notebook
+```
+
 Install the package `findspark`:
 
 ```
+source venv/bin/active
 pip install findspark
 ```
 
