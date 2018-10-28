@@ -1,5 +1,30 @@
 # Using Jupyter with SPARK
 
+## Directly in a Jupyter Notebook
+
+Install the package `findspark`:
+
+```
+pip install findspark
+```
+
+Start jupyter with:
+
+```
+SPARK_HOME=~/devel/spark/spark-2.3.2-bin-hadoop2.7 jupyter notebook
+```
+
+changing `/devel/spark/spark-2.3.2-bin-hadoop2.7` with the folder with your Spark installation.
+
+and at the top of your notebook:
+
+```
+import findspark
+findspark.init()
+```
+
+## With PySpark
+
 In order to start a Jupyter server with `pyspark` just add to your .bash_profile:
 
 ```
