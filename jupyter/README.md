@@ -32,6 +32,12 @@ import findspark
 findspark.init()
 ```
 
+To use plots matplotlib is also needed:
+
+```
+pip install matplotlib
+```
+
 
 ## Playing with London Crime dataset
 
