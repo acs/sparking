@@ -113,6 +113,19 @@ acs@~/devel/hadoop/hadoop-2.8.5 $ bin/hdfs dfs -mkdir /user
 acs@~/devel/hadoop/hadoop-2.8.5 $ bin/hdfs dfs -mkdir /user/acs
 ```
 
+All the commands available for HDFS are documented in:
+
+```
+acs@~/devel/hadoop/hadoop-2.8.5 $ bin/hdfs dfs -help
+```
+
+If the filesystem is not HDFS you can use:
+
+```
+acs@~/devel/hadoop/hadoop-2.8.5 $ bin/hadoop fs -help
+```
+
+
 ## Start Yarn service
 
 ```
