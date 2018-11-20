@@ -38,6 +38,13 @@ To use plots matplotlib is also needed:
 pip install matplotlib
 ```
 
+To use spark with scala inside Jupyter:
+
+```
+pip install --pre toree
+jupyter toree install --spark_home=$SPARK_HOME --sys-prefix
+```
+
 
 ## Playing with London Crime dataset
 
